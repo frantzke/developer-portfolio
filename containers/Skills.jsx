@@ -15,6 +15,7 @@ const Skills = () => {
 					<Row className="my-5" key={index}>
 						<Col lg="6" className="order-2 order-lg-1">
 							<Fade left duration={2000}>
+								{/* TODO: Replace Animation with Pictures */}
 								<DisplayLottie
 									animationPath={section.lottieAnimationFile}
 								/>
