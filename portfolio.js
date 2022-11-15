@@ -30,7 +30,10 @@ export const skillsSection = {
 	data: [
 		{
 			title: "Also Known For",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File.
+			imageSrc: "/img/projects/also-known-for.png",
+			github: "https://github.com/1hanzla100/developer-portfolio",
+			link: "https://developer-portfolio-1hanzla100.vercel.app/",
 			skills: [
 				"Vue App of what actors are also known for",
 				emoji(""),
@@ -68,7 +71,9 @@ export const skillsSection = {
 		},
 		{
 			title: "VIP Assignment",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File,
+			imageSrc: "/img/projects/vip-assignment.png",
+			link: "https://vvipliving.com/",
 			skills: [
 				"Client project to share assignment listings for purchasing pre-construction condo suites",
 			],
@@ -102,6 +107,9 @@ export const skillsSection = {
 		{
 			title: "Mortgage Calculator",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+			imageSrc: "/img/projects/mortgage-calculator.png",
+			github: "https://github.com/frantzke/mortgage-calculator",
+			link: "https://frantzke.github.io/mortgage-calculator/",
 			skills: [
 				"Simple mortgage calculator built in VueJs",
 			],
