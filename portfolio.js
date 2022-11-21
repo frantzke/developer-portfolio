@@ -6,8 +6,7 @@ export const greetings = {
 	description:
 		`I'm an experienced and versatile Software Developer adept in bringing forth expertise in design,
 		development, testing, and maintenance of software. Equipped with a diverse skill-set and
-		proficient in various languages, platforms, and systems. Motivated to learn, grow, and master
-		new technologies.`,
+		proficient in various languages, platforms, and systems.`,
 	resumeLink:
 		"",
 };
@@ -32,11 +31,11 @@ export const skillsSection = {
 			title: "Also Known For",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File.
 			imageSrc: "/img/projects/also-known-for.png",
-			github: "https://github.com/1hanzla100/developer-portfolio",
-			link: "https://developer-portfolio-1hanzla100.vercel.app/",
+			github: "https://github.com/frantzke/also-known-for",
+			link: "https://frantzke.github.io/also-known-for/",
 			skills: [
-				"Vue App of what actors are also known for",
-				emoji(""),
+				`Have you ever wondered, "where have I seen that actor before"? Also known for is an app to quickly see what other roles actors have played.`,
+				"Built in NuxtJS with material-ui front-end, connecting to imdb-api",
 			],
 			softwareSkills: [
 				{
@@ -60,6 +59,10 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-nuxt",
 				},
 				{
+					skillName: "Material-UI",
+					fontAwesomeClassname: "mdi:material-ui",
+				},
+				{
 					skillName: "Github",
 					fontAwesomeClassname: "akar-icons:github-fill",
 				},
@@ -75,7 +78,10 @@ export const skillsSection = {
 			imageSrc: "/img/projects/vip-assignment.png",
 			link: "https://vvipliving.com/",
 			skills: [
-				"Client project to share assignment listings for purchasing pre-construction condo suites",
+				"Designed and developed web app to share assignments of pre-construction condo suites listed by real-estate company",
+				"Integrates with Google Maps to display locations of listings and directly connects real estate agents to interested clients",
+				"All content is customizable through accompanying content management portal",
+				"Build in React and Redux, hosted with Firebase",
 			],
 			softwareSkills: [
 				{
@@ -95,6 +101,10 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 				},
 				{
+					skillName: "Redux",
+					fontAwesomeClassname: "simple-icons:redux",
+				},
+				{
 					skillName: "Firebase",
 					fontAwesomeClassname: "vscode-icons:file-type-firebase",
 				},
@@ -102,16 +112,29 @@ export const skillsSection = {
 					skillName: "Google Maps",
 					fontAwesomeClassname: "logos:google-maps",
 				},
+				{
+					skillName: "Material-UI",
+					fontAwesomeClassname: "mdi:material-ui",
+				},
+				{
+					skillName: "Github",
+					fontAwesomeClassname: "akar-icons:github-fill",
+				},
+				{
+					skillName: "NPM",
+					fontAwesomeClassname: "logos:npm-icon",
+				},
 			],
 		},
 		{
 			title: "Mortgage Calculator",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/lottie/skills/ethereum.json", 
 			imageSrc: "/img/projects/mortgage-calculator.png",
 			github: "https://github.com/frantzke/mortgage-calculator",
 			link: "https://frantzke.github.io/mortgage-calculator/",
 			skills: [
-				"Simple mortgage calculator built in VueJs",
+				"Mortgage calculator built in VueJs",
+				"Includes Jest testing",
 			],
 			softwareSkills: [
 				{
@@ -125,6 +148,10 @@ export const skillsSection = {
 				{
 					skillName: "JavaScript",
 					fontAwesomeClassname: "logos:javascript",
+				},
+				{
+					skillName: "Jest",
+					fontAwesomeClassname: "file-icons:jest",
 				},
 				{
 					skillName: "VueJs",
@@ -174,34 +201,49 @@ export const experience = [
 		role: "Software Developer",
 		company: "Simplista",
 		companylogo: "/img/icons/common/Simplista_Logo.png",
-		date: "2022 – Present",
+		date: "2022 - Present",
 		desc: "",
+		descBullets: [
+			`Small start-up simplifying the product on-boarding process from various vendors for major retailers`,
+			`Applying machine learning to product data to accurately auto-categorize items. Eliminates hours of work for clients and is a
+			marketable feature for new customers.`,
+			'Engineered logging system to track microservice requests and logs'
+		]
 	},
 	{
 		role: "Full-Stack Developer",
 		company: "GetQuorum",
 		companylogo: "/img/icons/common/GetQuorum.png",
-		date: "2021 – 2022",
+		date: "2021 - 2022",
 		desc: "",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
+		descBullets: [
+			"Support continuous development of internal and customer-facing platforms for managing and hosting condo meetings.",
+			"Full-stack developer working with VueJS, NuxtJS, NodeJs, Express, AWS, PostgreSQL, and Docker.",
+			`Independently built a live dashboard for employees to monitor condo meetings in real-time, utilizing VueJS, NodeJS, and
+			push notifications from the Zoom API forinstant updates. Enabled the evening team to swiftly respond to issues and
+			improve customer satisfaction`,
+			`Optimized business invoicing system through SQL refactoring and enhancing the API to reduce fetch times by 80%`,
+			`Worked in a team to simplify the internal platform into a customer-facing self-service dashboard to allow forrapid
+			scalability.`,
+		],
 	},
 	{
 		role: "Front-End Developer Consultant",
 		company: "Clockwork Inc.",
 		companylogo: "/img/icons/common/clockwork_background.png",
-		date: "2019 - 2021",
+		date: "2017 - 2021",
 		desc: "",
-	},
-	{
-		role: "Front-End Developer Intern",
-		company: "Clockwork Inc.",
-		companylogo: "/img/icons/common/clockwork_background.png",
-		date: "2017 - 2018",
-		desc: "",
-	},
+		descBullets: [
+			"Designed and developed SAP iOS apps and web-based SAPUI5 (Fiori) applications for Clockwork’s SAP Partnered clients.",
+			"Recipient of SAP Innovation Award 2021 in Cloud Genius Category for Covid-19 Food FinderiOS App",
+			`Created a time-sheetreporting app through NodeJS, MongoDB, React Native, and Swift for 50+ employees to efficiently
+			report billable hours, saving the company over $1,000 of collective hours every week. Utilized Azure Active Directory to
+			authenticate users and QuickBooks API to directly submit timesheets eliminating time-consuming tasks for accounting.`,
+			`Designed and instructed courses on new technologies for clients to build future apps in-house, saving them the cost of
+			outsourcing development. Constructed all course content, materials, demos, and step-by-step exercises. Directly led to
+			additional advisory work afterward requested by trainees.`
+		],
+	}
 ];
 
 export const projects = [

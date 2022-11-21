@@ -66,7 +66,7 @@ const Skills = () => {
                       return <p key={i}>{skill}</p>;
                     })}
                   </div>
-                  <div>
+                  <div className='pb-4'>
                     {section.github && (
                       <Button
                         className='btn-icon'
