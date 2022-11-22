@@ -1,5 +1,6 @@
 <h1 align="center">Welcome to my developer portfolio 👋</h1>
 
+![ezgif-2-ee1a63981c](https://user-images.githubusercontent.com/22245230/203422427-772c7137-1516-48b9-a06f-43f2d0d72bb4.gif)
 
 
 ## How To Use
