@@ -35,7 +35,7 @@ export const skillsSection = {
 			link: "https://frantzke.github.io/also-known-for/",
 			skills: [
 				`Have you ever wondered, "where have I seen that actor before"? Also known for is an app to quickly see what other roles actors have played.`,
-				"Built in NuxtJS with material-ui front-end, connecting to imdb-api",
+				"Built in NuxtJS with a material-ui front-end, connecting to imdb-api",
 			],
 			softwareSkills: [
 				{
@@ -81,7 +81,7 @@ export const skillsSection = {
 				"Designed and developed web app to share assignments of pre-construction condo suites listed by real-estate company",
 				"Integrates with Google Maps to display locations of listings and directly connects real estate agents to interested clients",
 				"All content is customizable through accompanying content management portal",
-				"Build in React and Redux, hosted with Firebase",
+				"Build in React using Redux, hosted with Firebase",
 			],
 			softwareSkills: [
 				{
@@ -133,8 +133,8 @@ export const skillsSection = {
 			github: "https://github.com/frantzke/mortgage-calculator",
 			link: "https://frantzke.github.io/mortgage-calculator/",
 			skills: [
-				"Mortgage calculator built in VueJs",
-				"Includes Jest testing",
+				"Calculates a mortgage's regular payment, principal vs interest split, totals and more. ",
+				"Built in VueJs including a Jest unit test suite",
 			],
 			softwareSkills: [
 				{
