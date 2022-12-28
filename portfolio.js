@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Lukas Frantzke",
 	title: "Hi I'm Lukas!",
 	description:
-		`I'm an experienced and versatile Software Developer adept in bringing forth expertise in design,
+		`I'm an experienced and versatile Software Developer adept in providing expertise in design,
 		development, testing, and maintenance of software. Equipped with a diverse skill-set and
 		proficient in various languages, platforms, and systems.`,
 	resumeLink:
@@ -34,7 +34,7 @@ export const skillsSection = {
 			github: "https://github.com/frantzke/also-known-for",
 			link: "https://frantzke.github.io/also-known-for/",
 			skills: [
-				`Have you ever wondered, "where have I seen that actor before"? Also known for is an app to quickly see what other roles actors have played.`,
+				`Have you ever wondered: "Where have I seen that actor before"? Also Known For is an app to rapidly see what other roles actors have performed.`,
 				"Built in NuxtJS with a material-ui front-end, connecting to imdb-api",
 			],
 			softwareSkills: [
@@ -57,6 +57,58 @@ export const skillsSection = {
 				{
 					skillName: "NuxtJs",
 					fontAwesomeClassname: "vscode-icons:file-type-nuxt",
+				},
+				{
+					skillName: "Material-UI",
+					fontAwesomeClassname: "mdi:material-ui",
+				},
+				{
+					skillName: "Github",
+					fontAwesomeClassname: "akar-icons:github-fill",
+				},
+				{
+					skillName: "NPM",
+					fontAwesomeClassname: "logos:npm-icon",
+				},
+			],
+		},
+		{
+			title: "eCommerce Management App",
+			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File,
+			imageSrc: "/img/projects/ecommerce-app.png",
+			link: "https://ecommerceapp-dev.web.app/",
+			skills: [
+				"eCommerce management platform to manage products, orders, collections, customers, and customer rewards program.",
+				"Connected to Firebase backend for database, authentication, and deployment",
+			],
+			softwareSkills: [
+				{
+					skillName: "HTML-5",
+					fontAwesomeClassname: "vscode-icons:file-type-html",
+				},
+				{
+					skillName: "CSS-3",
+					fontAwesomeClassname: "vscode-icons:file-type-css",
+				},
+				{
+					skillName: "JavaScript",
+					fontAwesomeClassname: "logos:javascript",
+				},
+				{
+					skillName: "ReactJS",
+					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+				},
+				{
+					skillName: "Redux",
+					fontAwesomeClassname: "simple-icons:redux",
+				},
+				{
+					skillName: "Firebase",
+					fontAwesomeClassname: "vscode-icons:file-type-firebase",
+				},
+				{
+					skillName: "Google Maps",
+					fontAwesomeClassname: "logos:google-maps",
 				},
 				{
 					skillName: "Material-UI",
