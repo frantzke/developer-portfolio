@@ -18,7 +18,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	url: "",
+	url: "https://frantzke-developer-portfolio.vercel.app/",
 	linkedin: "https://www.linkedin.com/in/lukasfrantzke/",
 	github: "https://github.com/frantzke",
 };
@@ -73,7 +73,7 @@ export const skillsSection = {
 			],
 		},
 		{
-			title: "eCommerce Management App",
+			title: "E-Commerce Management App",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File,
 			imageSrc: "/img/projects/ecommerce-app.png",
 			link: "https://ecommerceapp-dev.web.app/",
@@ -339,7 +339,7 @@ export const seoData = {
 		"A passionate Full Stack Web Developer",
 	author: "Lukas Frantzke",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "",
+	url: "https://frantzke-developer-portfolio.vercel.app/",
 	keywords: [
 		"Lukas",
 		"Lukas Frantzke",
