@@ -13,6 +13,7 @@ function SEO() {
 			<meta name="description" content={seoData.description} />
 			<meta name="keywords" content={seoData.keywords.join(", ")} />
 			<link rel="canonical" href={seoData.url} />
+			<meta name="google-site-verification" content="ZrZpgFu0Fe6RQscsV15Te3FCqXecTXR2ungsIeFQFac" />
 			{/* Open Graph / Facebook */}
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content={seoData.url} />
