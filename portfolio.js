@@ -338,7 +338,7 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer",
 	author: "Lukas Frantzke",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	image: "https://avatars.githubusercontent.com/u/22245230?v=4",
 	url: "https://frantzke-developer-portfolio.vercel.app/",
 	keywords: [
 		"Lukas",

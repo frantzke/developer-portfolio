@@ -1,4 +1,9 @@
+# *
 User-agent: *
-Allow: /*
-Host: frantzke-developer-portfolio.vercel.app
-sitemap: https://frantzke-developer-portfolio.vercel.app/sitemap.xml
+Allow: /
+
+# Host
+Host: https://frantzke-developer-portfolio.vercel.app/
+
+# Sitemaps
+Sitemap: https://frantzke-developer-portfolio.vercel.app/sitemap.xml
