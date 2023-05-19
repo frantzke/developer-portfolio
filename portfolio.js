@@ -334,7 +334,7 @@ export const feedbacks = [
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Lukas Frantzke",
+	title: "Lukas Frantzke Portfolio",
 	description:
 		"A passionate Full Stack Web Developer",
 	author: "Lukas Frantzke",
@@ -349,5 +349,7 @@ export const seoData = {
 		"Portfolio",
 		"Lukas Portfolio ",
 		"Lukas Frantzke Portfolio",
+		"Developer",
+		"Software Engineer",
 	],
 }
