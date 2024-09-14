@@ -33,9 +33,16 @@ const Greetings = () => {
 									<h1 className="display-3 text-white">
 										{greetings.title + " "}
 									</h1>
-									<p className="lead text-white">
+									{greetings.descriptions.map((desc) => {
+										return (
+											<p className="lead text-white">
+												{desc}
+											</p>);
+										})
+									}
+									{/* <p className="lead text-white">
 										{greetings.description}
-									</p>
+									</p> */}
 									<SocialLinks />
 									{/* <div className="btn-wrapper my-4">
 										<Button
@@ -53,7 +60,7 @@ const Greetings = () => {
 									</div> */}
 								</Col>
 								<Col lg="6">
-									<GreetingLottie animationPath="/lottie/coding.json" />
+									<GreetingLottie animationPath="/lottie/fullstack-dev.json" />
 								</Col>
 							</Row>
 						</div>

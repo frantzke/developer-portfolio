@@ -74,11 +74,12 @@ const Skills = () => {
                         href={section.github}
                         target='_blank'
                         rel='noopener'
-                        aria-label='Github'
+                        aria-label='Github Link'
                       >
                         <span className='btn-inner--icon'>
                           <i className='fa fa-github' />
                         </span>
+                        <span className='nav-link-inner--text ml-1'>Repo</span>
                       </Button>
                     )}
                     {section.link && (
@@ -88,12 +89,27 @@ const Skills = () => {
                         href={section.link}
                         target='_blank'
                         rel='noopener'
-                        aria-label='Twitter'
+                        aria-label='Live Site Link'
                       >
                         <span className='btn-inner--icon'>
                           <i className='fa fa-arrow-right mr-2' />
                         </span>
-                        <span className='nav-link-inner--text ml-1'>Demo</span>
+                        <span className='nav-link-inner--text ml-1'>Live Site</span>
+                      </Button>
+                    )}
+                    {section.blog && (
+                      <Button
+                        className='btn-icon'
+                        color='info'
+                        href={section.blog}
+                        target='_blank'
+                        rel='noopener'
+                        aria-label='Blog Post Link'
+                      >
+                        <span className='btn-inner--icon'>
+                          <i className='fa fa-rss mr-2' />
+                        </span>
+                        <span className='nav-link-inner--text ml-1'>Blog Post</span>
                       </Button>
                     )}
                   </div>

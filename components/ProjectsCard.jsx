@@ -31,16 +31,16 @@ const ProjectsCard = ({ data }) => {
 								{data.link ? (
 									<Button
 										className="btn-icon"
-										color="success"
+										color="info"
 										href={data.link}
 										target="_blank"
-										rel="noopener" aria-label="Twitter"
+										rel="noopener" aria-label="Live Site"
 									>
 										<span className="btn-inner--icon">
-											<i className="fa fa-arrow-right mr-2" />
+											<i className="fa fa-blog mr-2" />
 										</span>
 										<span className="nav-link-inner--text ml-1">
-											Demo
+											Live Site
 										</span>
 									</Button>
 								) : null}

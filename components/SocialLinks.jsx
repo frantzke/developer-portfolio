@@ -91,6 +91,20 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
+			{socialLinks.email && (
+				<Button
+					className="btn-icon-only rounded-circle"
+					color="white"
+					href={`mailto:${socialLinks.email}`}
+					target="_blank"
+					rel="noopener"
+					aria-label="Email"
+				>
+					<span className="btn-inner--icon">
+						<i className="fa fa-envelope" />
+					</span>
+				</Button>
+			)}
 		</div>
 	);
 };
